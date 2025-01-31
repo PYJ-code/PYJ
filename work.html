@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PYJ作品集</title>
+  <style>
+    body {
+        background-color: #1a202c;
+        color: white;
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+    }
+    nav {
+        background-color: #2d3748;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+    nav a:hover {
+        color: #63b3ed;
+    }
+    .container {
+        padding: 2rem;
+        text-align: center;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+    .card {
+        background-color: #2d3748;
+        padding: 1.5rem;
+        border-radius: 16px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .card h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .card p {
+        color: #a0aec0;
+    }
+    
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">主頁</a>
+    <a href="/works">作品集</a>
+    <a href="/about">關於我們</a>
+  </nav>
+  <section class="container">
+    <h2>作品集</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>官網</h3>
+        <p>每一個團隊都必須有一個官網，而我們PYJ當然也不可少，歡迎大家隨意逛逛喔!</p>
+        <a style="color: azure;" href="/">前往官網</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

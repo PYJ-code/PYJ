@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>關於PYJ</title>
+    <style>
+        body {
+            background-color: #1a202c;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+        }
+        nav {
+            background-color: #2d3748;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            color: #63b3ed;
+        }
+        .container {
+            padding: 2rem;
+            text-align: center;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .card {
+            background-color: #2d3748;
+            padding: 1.5rem;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .card p {
+            color: #a0aec0;
+        }
+        
+    </style>
+</head>
+<body>
+  <nav>
+    <a href="/">主頁</a>
+    <a href="/works">作品集</a>
+    <a href="/about">關於我們</a>
+  </nav>
+  <section class="container">
+    <h2>關於我們</h2>
+    <p>
+        PYJ 團隊簡介
+<br><br>
+我們是 PYJ，一個由三位對程式設計充滿熱忱的國中生組成的團隊。我們喜歡用程式創造有趣又實用的網站，讓大家的生活更方便。
+<br><br>
+我們的技術
+<br>
+我們主要使用 Python 的 Flask 框架，搭配 HTML、CSS等前端技術，來開發各種網頁應用程式。
+<br><br>
+我們的作品
+<br>
+我們前已完成多個網站專案。您可以在我們的作品展示頁面找到更多資訊。
+<br><br>
+我們的理念
+<br>
+我們相信程式設計是一種技能，更是一種發揮創意的好方法。我們享受一起合作的樂趣，並希望透過程式設計來幫助大家、讓世界更美好。
+<br><br>
+如果您對我們的團隊或作品有任何興趣，歡迎隨時透過我們的聯絡表單與我們聯繫。
+    </p>
+    <div class="grid">
+      <div class="card">
+        <h3>Theo</h3>
+        <p>嗨嗨，我是yu lin,我平時喜歡騎車和寫程式，使用python和HTML，在團隊中負責設計企劃以及python的部分。</p>
+      </div>
+      <div class="card">
+        <h3>Peter</h3>
+        <p>我是在團隊幫忙負責Html網頁的部分，我很喜歡寫關於介紹的網站。</p>
+      </div>
+      <div class="card">
+        <h3>Jimmy</h3>
+        <p>我是在團隊幫忙負責Python和處理Bug的部份。</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
